@@ -17,9 +17,9 @@ namespace CalcTest
         [Test]
         public void Addition_of_two_negative_numbers()
         {
-            double a = -5, b = -6;//arrange
+            double a = -5, b = -7;//arrange
             double res = Calc.Addition(a, b);//act
-            Assert.AreEqual(res, -11); //assert
+            Assert.AreEqual(res, -12); //assert
         }
 
         [Test]
